@@ -18,7 +18,7 @@ syringe -i ./input.js -o ./out.js -s ./data/
 ## How It Works
 Lets say `input.js` contains:
 ```js
-const a = "/* @SYRINGE-INJECT: test.txt";
+const a = "/* @SYRINGE-INJECT: test.txt */";
 ```
 Inside of `data/` there is a filed called `text.txt` that contains:
 ```
